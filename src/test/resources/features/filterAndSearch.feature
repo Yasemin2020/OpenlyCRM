@@ -18,7 +18,7 @@ Feature:
       |WORK           |
 
 
-@OPC-1075
+@OPC-1075 @smoke
   Scenario:
     And User click Add field button
     Then User see all fields as
@@ -32,7 +32,7 @@ Feature:
 
     Then User click check boxes and see fields are added and removed
 
-@OPC-1076
+@OPC-1076 @smoke
   Scenario:
     When User click RestoreDefaultFields button
     When User click Date dropdown
@@ -53,7 +53,7 @@ Feature:
     And User select Month option and click search
     Then User see the results of December "2021"
 
-  @OPC-1078
+  @OPC-1078 @smoke
   Scenario Outline:
     When User click RestoreDefaultFields button
     When User click Type dropdown
